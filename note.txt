@@ -1,0 +1,48 @@
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+
+load_img : 
+    1) conv : Ch.8 W.6
+    2) load for prediction : Ch.8 W.12
+
+from PIL import Image, ImageOps
+    1) pooling : Ch.8 W.4
+    3) for converting to dataset Ch.8 W.13
+
+
+🧠 1. tensorflow.keras.preprocessing.image.load_img()
+When to use it:
+
+When working specifically within TensorFlow/Keras pipelines.
+
+If you're planning to directly feed the image into a Keras model (e.g., for training or inference).
+
+    When you want to resize the image automatically at load time (target_size parameter).
+
+    When you're using high-level utilities like image_dataset_from_directory().
+
+Why use it:
+
+    Returns a PIL Image object but is more integrated with Keras workflows.
+
+    Supports color mode conversion (grayscale, rgb, rgba).
+
+    Easier for batch processing and consistent with the TensorFlow ecosystem.
+
+ 2. PIL.Image.open()
+When to use it:
+
+    When doing custom image processing outside of TensorFlow/Keras.
+
+    For exploratory data analysis, visualizations, or when using libraries like OpenCV, matplotlib, etc.
+
+    When you need more fine-grained control over image formats, metadata, or transformations.
+
+    If working on projects that aren't strictly TensorFlow-based (e.g., PyTorch or classical CV).
+
+Why use it:
+
+    More flexible and general-purpose.
+
+    Can open a wide variety of image formats and access low-level attributes.
+
+    Useful in data preprocessing or data augmentation pipelines that aren’t tied to a specific DL framework.
