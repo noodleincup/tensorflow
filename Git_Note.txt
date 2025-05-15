@@ -1,0 +1,79 @@
+How Git Working
+
+Working Directory (Untracked) ->  Working Directory (Tracked) -> Staging Area -> Local Repository -> Remote Repository
+			    git init			    git add 	    git commit 		git push
+
+
+- Create Local Repository
+	* git init
+
+- Add file into Staging Area (Check-in)
+	* git add <file_name>	: git add index.html
+	* git add *.html	: all about html file
+	* git add .		: all file in Working Directory
+- Remove file or folder in Git Repository (Remove) 
+	* git rm -r --cached .	: remove all file
+	* git rm --cached	: remove specific file
+- Check status of Local Repository (on PC)
+	* git status
+- Status
+	: Modified	=> modify file but not add to repository
+	: Staged	=> checked it for saving in next version
+	: Committed	=> already save in re repository
+- Save modified file
+	* git commit -m "Log Message"
+	- Option
+		* m add message to decribe about version
+		* all commit always have Cimmit ID
+- Show commit history
+	* git log
+	* git log --oneline	: display each log in one line
+	* git log --graph	: display with branch
+- Compare the version
+	* git diff <commit_id>
+	* git diff <commit_id_1> <commit_id_2> 
+- Cancle modify file (Check-out) back to previous version
+	* git checkout <file-name>
+- Back to the version
+	* git reset -- option <commit_id>
+	- Option
+		* soft 	: remove all commit after specific commit id then get these commit to staging area
+		* mixed	: remove all commit after specific commit id then get these commit to working directory
+		* hard 	: remove all commit after specific commit id without moving to any stage
+- Display Branch Name
+	* git branch
+- Switch and Create new branch
+	* git checkout -b <branch_name>	: ! don't have space
+- Switch branch
+	* git checkout <branch_name>
+- Merge branch with master branch
+	* git merge <branch_name>
+- Push file to remote repository
+	* git remote add <remote_name> <github_project_http>
+	* git branch -M main
+	* git push -u <remote_name> <local_branch_name>
+- Pull and merge project from remote repository
+	* git remote add <remote_name> <github_project_http>
+	* git pull <remote_name> <local_branch_name>
+- Clone project from remote repository
+	* git clone <github_project_http>
+
+- Check the Remote URL
+	* git remote -v
+
+
+- Push some file to remote repository
+	* git checkout <local_branch_name>  ||  git checkout -b <local_branch_name> <remote_name>/<remote_branch_name>
+	* git add <path/to/file1> <path/to/file2>
+	* git commit -m "<your_comment>"
+	* git push <remote_name> <local_branch_name>:<remote_branch_name>
+
+- Pull some file from remote reposity
+	* git fetch <remote_name>
+	* git checkout <remote_name>/<remote_branch_name> -- <path/to/file> || git restore --source <remote_name>/<remote_branch_name> -- <path/to/file>
+	* git add <file_name>
+	* git commit -m "<your_commment>" 
+
+
+
+	
