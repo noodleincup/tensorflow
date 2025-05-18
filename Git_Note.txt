@@ -54,7 +54,7 @@ Working Directory (Untracked) ->  Working Directory (Tracked) -> Staging Area ->
 	* git push -u <remote_name> <local_branch_name>
 - Pull and merge project from remote repository
 	* git remote add <remote_name> <github_project_http>
-	* git pull <remote_name> <local_branch_name>
+	* git pull <remote_name> <remote_branch_name>
 - Clone project from remote repository
 	* git clone <github_project_http>
 
