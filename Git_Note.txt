@@ -75,5 +75,9 @@ Working Directory (Untracked) ->  Working Directory (Tracked) -> Staging Area ->
 	* git commit -m "<your_commment>" 
 
 
+- Increase Git's buffer size
+	* git config --global http.postBuffer 524288000
+
+
 
 	
