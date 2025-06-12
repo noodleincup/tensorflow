@@ -1,0 +1,5 @@
+11_7 use yolo with detect.py on pc
+
+11_9 train model yolo on colab
+
+11_10 train model yolo on pc
