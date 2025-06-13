@@ -1,5 +1,57 @@
+Chapter 7: Finding the optimal value with Gradient Descent
+7_1_Mean Squared Error
+7_2_Find Loss value with Binary Cross-entropy
+7_3_Sparse Categorical Cross-entropy
+7_4_Gradient Descent
+7_5_Number of rounds for Gradient Descent
+7_6_Learning Rate
+7_7_Start with any Weight value
+7_8_SGD with Momentum
+7_9_No Regularization
+7_10_Regularization L1
+7_11_Regularization L2
+7_12_Dropout
+7_13_Early Stopping to automatically stop Training
+7_14_Model Checkpoint
+
+Chapter 8: Convolutional Neural Network
+8_1_Convolution 2D
+8_2_Feature Map
+8_3_Pooling
+8_4_Pooling after Convolution
+8_5_Create Model and view Kernel
+8_6_View Feature map
+8_7_Handwritten digit data
+8_8_Visualization to display number images
+8_9_Prepare data for Train and Test
+8_10_Create Model
+8_11_Look at incorrectly predicted numbers
+8_12_Write numbers by hand and then predict
+8_13_Creating a Number Dataset
+8_14_Deploy Model on Web
+8_15_Converting .h5 to TensorFlow Lite
+
+Chapter 9: Applying CNN
+9_1_LeNet-5 for handwritten classification
+9_2_CNN for Dog Cat classification
+9_3_Data Augmentation
+9_4_Using VGG for image classification
+9_5_Using ResNet for image classification
+
+Chapter 10: Knowledge Transfer with Transfer Learning
+10_1_Transfer Learning from VGG
+10_2_Customizing with Fine-tuning
+10_3_Transfer Learning from ResNet
+10_4_Transfer Learning to classify dogs, cats, and elephants
+10_5_Transfer Learning from MobileNet
+
+Chapter 11: Object detection
+11_1 Object Detection with image
+11_2 Object detection throght VDO
+11_3 Object detection through laptop camera
+11_4 use yolo with ipny file on colab
+11_5 use yolo with ipny file on PC 
+11_6 use yolo with detect.py on colab
 11_7 use yolo with detect.py on pc
-
 11_9 train model yolo on colab
-
 11_10 train model yolo on pc
