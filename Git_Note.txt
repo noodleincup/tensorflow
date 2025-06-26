@@ -78,6 +78,8 @@ Working Directory (Untracked) ->  Working Directory (Tracked) -> Staging Area ->
 - Increase Git's buffer size
 	* git config --global http.postBuffer 524288000
 
+- restore the specific file to the specfic version
+	* git checkout <commit id> <file_path>
 
 
 	
