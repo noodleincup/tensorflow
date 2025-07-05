@@ -34,12 +34,14 @@ Working Directory (Untracked) ->  Working Directory (Tracked) -> Staging Area ->
 	* git diff <commit_id_1> <commit_id_2> 
 - Cancle modify file (Check-out) back to previous version
 	* git checkout <file-name>
-- Back to the version
+- Back Temporarily to the version
+	* git checkout <commit-hash>
+- Back Permanently to the version
 	* git reset -- option <commit_id>
 	- Option
-		* soft 	: remove all commit after specific commit id then get these commit to staging area
-		* mixed	: remove all commit after specific commit id then get these commit to working directory
-		* hard 	: remove all commit after specific commit id without moving to any stage
+		* soft 	: remove all commit after specific commit id then get these commit to staging area (keep changes staged)
+		* mixed	: remove all commit after specific commit id then get these commit to working directory ( keep changes as unstaged)
+		* hard 	: remove all commit after specific commit id without moving to any stage (discard all changes)
 - Display Branch Name
 	* git branch
 - Switch and Create new branch
