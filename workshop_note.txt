@@ -57,6 +57,11 @@ Chapter 11: Object detection
 11_10 train model yolo on pc
 11_12 train image segmentation
 
-chapter 14: AI Artist
+Chapter 14: AI Artist
 14_1 Train GAN model for fasion image
 14_2 Train GAN model for celeb image
+
+Chapter 15: Recurrent Neural Network
+15_1 Contain workshop 1-3 that check RNN structure and train model
+15_4 Use Long-Short Term Memory (LSTM) for stock value forecasing
+15_6 Use Gate Recurrent Unit (GRU) for stock value forecasing
