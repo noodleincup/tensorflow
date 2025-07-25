@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "D:\\Project\\Learning\\Environment_Project\\tensorflow\\tf-gpu-py310\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "D:\\Project\\Learning\\Environment_Project\\pytorch\\torch-cpu-py310\\Scripts\\python.exe",
     "jupyter.python.defaultInterpreterPath": "D:\\Project\\Learning\\Environment_Project\\tensorflow\\tf-gpu-py310\\Scripts\\python.exe",
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
