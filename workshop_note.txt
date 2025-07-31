@@ -64,7 +64,9 @@ Chapter 14: AI Artist
 Chapter 15: Recurrent Neural Network
 15_1 Contain workshop 1-3 that check RNN structure and train model
 15_4 Use Long-Short Term Memory (LSTM) for stock value forecasing
+15_5 Same 15_4 but create model with multi LSTM Layer
 15_6 Use Gate Recurrent Unit (GRU) for stock value forecasing
+15_7 Same 15_6 but create model with multi GRU Layer
 
 Chapter 16: NLP
 16_0 Convert word to vector theory
