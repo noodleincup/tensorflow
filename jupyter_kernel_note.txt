@@ -1,0 +1,11 @@
+Check kernel
+    - jupyter kernelspec list
+
+Create kernel
+    1) create venv
+    2) activate venv
+    3) pip install ipykernel
+    4) python -m ipykernel install --user --name=<venv name> --display-name "<Kernel name>"
+
+Remove kernel
+    - jupyter kernelspec uninstall <venv name>
