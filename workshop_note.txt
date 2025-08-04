@@ -1,3 +1,11 @@
+Chapter 6: Use TensorFlow and keras
+6_1 Prepare data
+6_2 Create model
+6_3 Save model
+6_4 Save Scaler amd Class names
+6_5 Load model
+6_6 Iris Classification
+
 Chapter 7: Finding the optimal value with Gradient Descent
 7_1_Mean Squared Error
 7_2_Find Loss value with Binary Cross-entropy
